@@ -1,0 +1,88 @@
+/* DOCUMENTO CSS - Projeto CARD*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    font-size: 100px;
+}
+body {
+    font-family: 'Segoe UI';
+    color: rgb(0, 0, 0);
+    background-image: url("fundo.jpg");
+    background-size: cover;
+}
+#topo {
+    
+    background-color: #4ff24f00;
+    height: 200px;
+}
+#conteudo {
+   
+    
+    height: 1300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card {
+    width: 300px;
+    height: 410px;
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #000000;
+    background-color: rgb(209, 255, 207);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.card:hover {
+    transform: scale(1.02);
+    transition: all 0,7s cubic-bezier(0, 0, 0.5, 1)
+}
+.card:not(:hover) {
+    transform: scale(1.);
+    transition: all 0,7s cubic-bezier(0, 0, 0.5, 1)
+}
+
+.card figure{
+    width: 290px;
+    height: 290px;
+    background-color: rgb(77, 128, 111);
+    border-radius: 10px;
+}
+.card figure img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 05%;
+}6
+.card h2{
+
+}
+.card p{
+
+}
+
+
+
+
+
+
+
+#rodape {
+    background-color:#00640000;
+    height: 100px;
+    text-align: center;
+    padding-top: 35px;
+    
+    
+}
